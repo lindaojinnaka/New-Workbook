@@ -174,5 +174,29 @@ FOODS.each_key do |food|
    puts "Allergic tp #{food}: #{allergic}"
    end
 
+Workbook Resources:
+Citation website:https://owl.purdue.edu/owl/research_and_citation/mla_style/mla_formatting_and_style_guide/mla_works_cited_electronic_sources.html
+
+https://www.internetsociety.org/internet/history-internet/brief-history-intern
+
+https://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm
+
+https://www.ibm.com/support/knowledgecenter/SSGMCP_5.2.0/com.ibm.cics.ts.internet.doc/topics/dfhtl21.html
+
+https://www.ibm.com/support/knowledgecenter/SSGMCP_5.2.0/com.ibm.cics.ts.internet.doc/topics/dfhtl23.html
+
+https://www.w3schools.com/whatis/whatis_http.asp
+https://www.guru99.com/difference-compiler-vs-interpreter.html
+
+
+https://www2.southeastern.edu/Academics/Faculty/kyang/2014/Fall/CMPS401/ClassNotes/CMPS401ClassNotesChap06.pdf
+
+
+https://www.wpbeginner.com/glossary/dns/
+https://www.softwaretestinghelp.com/types-of-routers-routing-table/
+https://www.avast.com/c-what-is-tcp-ip
+https://www.w3schools.com/java/java_data_types.asp
+
+https://www.informedsources.com/legal/privacy-policy.aspx
 
 
