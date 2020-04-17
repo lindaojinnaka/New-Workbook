@@ -96,7 +96,8 @@ The two variable raining, and temperature are set at the beginning of the progra
 
 Q9. Explain type coercion. 100 words 
 Type coercion is the conversion of values from one data type to another. For instance, a floating point value that is changed into an integer would be an example of type coercion. Type coercion would be used in order to allow programs to work. Changing  a number to a string so that it could concatenate with another string would be an example of type coercion. Type coercion is also very similar to type casting, type conversion, and type juggling. There are different operators that can be used to convert one data type to another. Primarily, the  double equals (==)  operator, and the + operator are used to convert on data type to another.  
-
+Explicit type coercion occurs when the developer uses code to covert between types. 
+Implicit type coercion occurs when a language such as Javascript has its different types converted automatically.
 
 
 Q10. Explain data types, using examples.   100 words 
@@ -121,14 +122,39 @@ array: [2,5,7,9,5]
 -Identify the classes you would use to solve the problem.
 -Write a short explanation of why you would use the classes you identified. 
 
+
+
+
+
 Q12: Identify and explain the code error in the snippet below. 
 The celsius variable needs to be converted to an integer before the program can convert celsius to fahrenheit. “.chomp” also needs to be added to removed the new line that appears when the user hits enter.
 # celsius = gets.chomp.to_i
 
 
+```ruby
+celsius = gets.chomp.to_i
+fahrenheit = (celsius * 9 / 5) + 32
+print "The result is: "
+print fahrenheit
+puts "."
+```
+
+
+
 Q13: The code snippet looks for the first two elements out of order and swaps them. Rewrite the code so that it works correctly.  
 
-Arr = [5, 22, 29, 19, 39, 51, 78, 96, 84]
+
+```ruby
+arr = [5, 19, 29, 39, 51, 78, 96, 84]
+i = 0
+while (i < arr.size - 1 and arr[i] < arr[i + 1])
+        i = i + 1 end
+puts i
+    arr[i] = arr[i + 1]
+    arr[i + 1] = arr[i]
+
+Q14:
+
 
 
 Q15: Write pseodocode or ruby code for the following problem. 
@@ -173,6 +199,10 @@ FOODS.each_key do |food|
    allergic = (score & FOODS [food] 0)
    puts "Allergic tp #{food}: #{allergic}"
    end
+
+
+
+
 
 Workbook Resources:
 Citation website:https://owl.purdue.edu/owl/research_and_citation/mla_style/mla_formatting_and_style_guide/mla_works_cited_electronic_sources.html
